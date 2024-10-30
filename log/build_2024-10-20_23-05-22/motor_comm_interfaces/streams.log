@@ -1,0 +1,20 @@
+[0.018s] Invoking command in '/home/dmantri/ardu3/build/motor_comm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake /home/dmantri/ardu3/src/motor_comm_interfaces -DCMAKE_INSTALL_PREFIX=/home/dmantri/ardu3/install/motor_comm_interfaces
+[0.027s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.363s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.365s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.423s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.424s]   rosidl_generate_interfaces() the passed file 'msg/motorArray.msg' doesn't
+[0.424s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.424s]   '/home/dmantri/ardu3/src/motor_comm_interfaces'
+[0.425s] Call Stack (most recent call first):
+[0.425s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.425s] 
+[0.425s] [0m
+[0.425s] -- Configuring incomplete, errors occurred!
+[0.425s] See also "/home/dmantri/ardu3/build/motor_comm_interfaces/CMakeFiles/CMakeOutput.log".
+[0.429s] Invoked command in '/home/dmantri/ardu3/build/motor_comm_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake /home/dmantri/ardu3/src/motor_comm_interfaces -DCMAKE_INSTALL_PREFIX=/home/dmantri/ardu3/install/motor_comm_interfaces

@@ -1,0 +1,6 @@
+{
+  "package_name": "motor_comm_interfaces",
+  "non_idl_tuples": [
+    "/home/dmantri/ardu3/src/motor_comm_interfaces:msg/MotorArray.msg"
+  ]
+}

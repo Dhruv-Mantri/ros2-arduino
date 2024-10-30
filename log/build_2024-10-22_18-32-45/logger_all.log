@@ -1,0 +1,203 @@
+[0.522s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.522s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f49cae7b7c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f49cae7b310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f49cae7b310>>, mixin_verb=('build',))
+[1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.064s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dmantri/ardu3'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extension 'ignore'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extension 'ignore_ament_install'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extensions ['colcon_pkg']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extension 'colcon_pkg'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extensions ['colcon_meta']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extension 'colcon_meta'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extensions ['ros']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_comm_interfaces) by extension 'ros'
+[1.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_comm_interfaces' with type 'ros.ament_cmake' and name 'motor_comm_interfaces'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extensions ['ignore', 'ignore_ament_install']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extension 'ignore'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extension 'ignore_ament_install'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extensions ['colcon_pkg']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extension 'colcon_pkg'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extensions ['colcon_meta']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extension 'colcon_meta'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extensions ['ros']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_comms) by extension 'ros'
+[1.093s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_arduino_comms' with type 'ros.ament_python' and name 'ros2_arduino_comms'
+[1.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.162s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dmantri/ardu3/install
+[1.163s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/dmantri/ros2_ws/install
+[1.164s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/dmantri/simulation_docker/ros2ws/install
+[1.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[1.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'motor_comm_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.305s] DEBUG:colcon.colcon_core.verb:Building package 'motor_comm_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dmantri/ardu3/build/motor_comm_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dmantri/ardu3/install/motor_comm_interfaces', 'merge_install': False, 'path': '/home/dmantri/ardu3/src/motor_comm_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'cmake_target' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'cmake_clean_cache' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'cmake_clean_first' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'cmake_force_configure' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'ament_cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'catkin_cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_comms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.305s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_arduino_comms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dmantri/ardu3/build/ros2_arduino_comms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dmantri/ardu3/install/ros2_arduino_comms', 'merge_install': False, 'path': '/home/dmantri/ardu3/src/ros2_arduino_comms', 'symlink_install': False, 'test_result_base': None}
+[1.305s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dmantri/ardu3/src/motor_comm_interfaces' with build type 'ament_cmake'
+[1.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dmantri/ardu3/src/motor_comm_interfaces'
+[1.318s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmantri/ardu3/build/motor_comm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --build /home/dmantri/ardu3/build/motor_comm_interfaces -- -j16 -l16
+[1.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmantri/ardu3/build/motor_comm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --build /home/dmantri/ardu3/build/motor_comm_interfaces -- -j16 -l16
+[2.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmantri/ardu3/build/motor_comm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --install /home/dmantri/ardu3/build/motor_comm_interfaces
+[2.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_comm_interfaces)
+[2.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmantri/ardu3/build/motor_comm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --install /home/dmantri/ardu3/build/motor_comm_interfaces
+[2.151s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces' for CMake module files
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces' for CMake config files
+[2.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_comm_interfaces', 'cmake_prefix_path')
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/cmake_prefix_path.ps1'
+[2.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/cmake_prefix_path.dsv'
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/cmake_prefix_path.sh'
+[2.159s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/lib'
+[2.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_comm_interfaces', 'ld_library_path_lib')
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/ld_library_path_lib.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/ld_library_path_lib.dsv'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/ld_library_path_lib.sh'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/bin'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/lib/pkgconfig/motor_comm_interfaces.pc'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/lib/python3.10/site-packages'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/bin'
+[2.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.dsv'
+[2.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.sh'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.bash'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.zsh'
+[2.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmantri/ardu3/install/motor_comm_interfaces/share/colcon-core/packages/motor_comm_interfaces)
+[2.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_comm_interfaces)
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces' for CMake module files
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces' for CMake config files
+[2.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_comm_interfaces', 'cmake_prefix_path')
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/cmake_prefix_path.ps1'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/cmake_prefix_path.dsv'
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/cmake_prefix_path.sh'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/lib'
+[2.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_comm_interfaces', 'ld_library_path_lib')
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/ld_library_path_lib.ps1'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/ld_library_path_lib.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/hook/ld_library_path_lib.sh'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/bin'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/lib/pkgconfig/motor_comm_interfaces.pc'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/lib/python3.10/site-packages'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/motor_comm_interfaces/bin'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.dsv'
+[2.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.sh'
+[2.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.bash'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.zsh'
+[2.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmantri/ardu3/install/motor_comm_interfaces/share/colcon-core/packages/motor_comm_interfaces)
+[2.313s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dmantri/ardu3/src/ros2_arduino_comms' with build type 'ament_python'
+[2.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_arduino_comms', 'ament_prefix_path')
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/hook/ament_prefix_path.ps1'
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/hook/ament_prefix_path.dsv'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/hook/ament_prefix_path.sh'
+[2.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.772s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dmantri/ardu3/src/ros2_arduino_comms'
+[2.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmantri/ardu3/src/ros2_arduino_comms': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/ros2_arduino_comms' for CMake module files
+[4.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmantri/ardu3/src/ros2_arduino_comms' returned '0': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data
+[4.035s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/ros2_arduino_comms' for CMake config files
+[4.039s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/ros2_arduino_comms/lib'
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/ros2_arduino_comms/bin'
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/ros2_arduino_comms/lib/pkgconfig/ros2_arduino_comms.pc'
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages'
+[4.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_arduino_comms', 'pythonpath')
+[4.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/hook/pythonpath.ps1'
+[4.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/hook/pythonpath.dsv'
+[4.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/hook/pythonpath.sh'
+[4.042s] Level 1:colcon.colcon_core.environment:checking '/home/dmantri/ardu3/install/ros2_arduino_comms/bin'
+[4.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_arduino_comms)
+[4.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/package.ps1'
+[4.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/package.dsv'
+[4.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/package.sh'
+[4.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/package.bash'
+[4.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms/package.zsh'
+[4.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmantri/ardu3/install/ros2_arduino_comms/share/colcon-core/packages/ros2_arduino_comms)
+[4.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.047s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.140s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.140s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[4.140s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.141s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmantri/ardu3/install/local_setup.ps1'
+[4.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dmantri/ardu3/install/_local_setup_util_ps1.py'
+[4.145s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmantri/ardu3/install/setup.ps1'
+[4.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmantri/ardu3/install/local_setup.sh'
+[4.148s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dmantri/ardu3/install/_local_setup_util_sh.py'
+[4.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmantri/ardu3/install/setup.sh'
+[4.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmantri/ardu3/install/local_setup.bash'
+[4.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmantri/ardu3/install/setup.bash'
+[4.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmantri/ardu3/install/local_setup.zsh'
+[4.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmantri/ardu3/install/setup.zsh'

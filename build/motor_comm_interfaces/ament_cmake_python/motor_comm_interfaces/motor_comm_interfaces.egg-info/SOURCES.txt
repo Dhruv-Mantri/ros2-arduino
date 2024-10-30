@@ -1,0 +1,8 @@
+setup.py
+motor_comm_interfaces/__init__.py
+motor_comm_interfaces.egg-info/PKG-INFO
+motor_comm_interfaces.egg-info/SOURCES.txt
+motor_comm_interfaces.egg-info/dependency_links.txt
+motor_comm_interfaces.egg-info/top_level.txt
+motor_comm_interfaces/msg/__init__.py
+motor_comm_interfaces/msg/_motor_array.py

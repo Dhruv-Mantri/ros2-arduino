@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (-) JobUnselected: {'identifier': 'motor_comm_interfaces'}
+[0.001046] (-) JobUnselected: {'identifier': 'ros2_arduino_comms'}
+[0.001630] (-) EventReactorShutdown: {}

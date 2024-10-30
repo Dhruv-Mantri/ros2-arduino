@@ -1,0 +1,215 @@
+[0.023s] Invoking command in '/home/dmantri/ardu3/build/motor_comm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake /home/dmantri/ardu3/src/motor_comm_interfaces -DCMAKE_INSTALL_PREFIX=/home/dmantri/ardu3/install/motor_comm_interfaces
+[0.055s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.229s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.524s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.529s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.546s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.661s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.925s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.566s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.570s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.289s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.289s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.289s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.309s] -- Found PythonExtra: .so  
+[2.426s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.492s] -- Added test 'lint_cmake' to check CMake code style
+[2.495s] -- Added test 'xmllint' to check XML markup files
+[2.500s] -- Configuring done
+[2.546s] -- Generating done
+[2.548s] -- Build files have been written to: /home/dmantri/ardu3/build/motor_comm_interfaces
+[2.557s] Invoked command in '/home/dmantri/ardu3/build/motor_comm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake /home/dmantri/ardu3/src/motor_comm_interfaces -DCMAKE_INSTALL_PREFIX=/home/dmantri/ardu3/install/motor_comm_interfaces
+[2.560s] Invoking command in '/home/dmantri/ardu3/build/motor_comm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --build /home/dmantri/ardu3/build/motor_comm_interfaces -- -j16 -l16
+[2.603s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.614s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.622s] [  6%] Built target ament_cmake_python_copy_motor_comm_interfaces
+[2.851s] running egg_info
+[2.852s] creating motor_comm_interfaces.egg-info
+[2.853s] writing motor_comm_interfaces.egg-info/PKG-INFO
+[2.853s] writing dependency_links to motor_comm_interfaces.egg-info/dependency_links.txt
+[2.853s] writing top-level names to motor_comm_interfaces.egg-info/top_level.txt
+[2.854s] writing manifest file 'motor_comm_interfaces.egg-info/SOURCES.txt'
+[2.859s] reading manifest file 'motor_comm_interfaces.egg-info/SOURCES.txt'
+[2.860s] writing manifest file 'motor_comm_interfaces.egg-info/SOURCES.txt'
+[2.869s] [  6%] Built target motor_comm_interfaces__cpp
+[2.880s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.881s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.882s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.888s] [ 19%] [32mBuilding C object CMakeFiles/motor_comm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_comm_interfaces/msg/detail/motor_array__functions.c.o[0m
+[2.905s] [ 19%] Built target ament_cmake_python_build_motor_comm_interfaces_egg
+[3.076s] [ 22%] [32m[1mLinking C shared library libmotor_comm_interfaces__rosidl_generator_c.so[0m
+[3.117s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_comm_interfaces/msg/motor_array__type_support.cpp.o[0m
+[3.140s] [ 29%] [32mBuilding CXX object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_comm_interfaces/msg/detail/dds_fastrtps/motor_array__type_support.cpp.o[0m
+[3.143s] [ 32%] [32mBuilding CXX object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_comm_interfaces/msg/detail/motor_array__type_support.cpp.o[0m
+[3.298s] [ 32%] Built target motor_comm_interfaces__rosidl_generator_c
+[3.311s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.311s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.311s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.565s] [ 45%] [32m[1mLinking CXX shared library libmotor_comm_interfaces__rosidl_typesupport_cpp.so[0m
+[3.639s] [ 48%] [32mBuilding C object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_comm_interfaces/msg/detail/motor_array__type_support.c.o[0m
+[3.643s] [ 51%] [32mBuilding CXX object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_comm_interfaces/msg/detail/motor_array__type_support_c.cpp.o[0m
+[3.647s] [ 54%] [32mBuilding CXX object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_comm_interfaces/msg/motor_array__type_support.cpp.o[0m
+[3.684s] [ 58%] [32m[1mLinking C shared library libmotor_comm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.686s] [ 61%] [32m[1mLinking CXX shared library libmotor_comm_interfaces__rosidl_typesupport_c.so[0m
+[3.707s] [ 64%] [32m[1mLinking CXX shared library libmotor_comm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.728s] [ 67%] [32m[1mLinking CXX shared library libmotor_comm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.761s] [ 67%] Built target motor_comm_interfaces__rosidl_typesupport_cpp
+[3.831s] [ 67%] Built target motor_comm_interfaces__rosidl_typesupport_introspection_c
+[3.841s] [ 67%] Built target motor_comm_interfaces__rosidl_typesupport_c
+[3.953s] [ 70%] [32m[1mLinking CXX shared library libmotor_comm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.972s] [ 70%] Built target motor_comm_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.976s] [ 70%] Built target motor_comm_interfaces__rosidl_typesupport_introspection_cpp
+[4.189s] [ 70%] Built target motor_comm_interfaces__rosidl_typesupport_fastrtps_c
+[4.212s] [ 70%] Built target motor_comm_interfaces
+[4.235s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.537s] [ 74%] Built target motor_comm_interfaces__py
+[4.560s] [ 77%] [32mBuilding C object CMakeFiles/motor_comm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motor_comm_interfaces/msg/_motor_array_s.c.o[0m
+[4.739s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/motor_comm_interfaces/libmotor_comm_interfaces__rosidl_generator_py.so[0m
+[4.876s] [ 80%] Built target motor_comm_interfaces__rosidl_generator_py
+[4.898s] [ 87%] [32mBuilding C object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motor_comm_interfaces/_motor_comm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.898s] [ 87%] [32mBuilding C object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_comm_interfaces/_motor_comm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.902s] [ 90%] [32mBuilding C object CMakeFiles/motor_comm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_comm_interfaces/_motor_comm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.979s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.979s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.980s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.120s] [100%] Built target motor_comm_interfaces__rosidl_typesupport_c__pyext
+[5.120s] [100%] Built target motor_comm_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.120s] [100%] Built target motor_comm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.133s] Invoked command in '/home/dmantri/ardu3/build/motor_comm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --build /home/dmantri/ardu3/build/motor_comm_interfaces -- -j16 -l16
+[5.267s] Invoking command in '/home/dmantri/ardu3/build/motor_comm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --install /home/dmantri/ardu3/build/motor_comm_interfaces
+[5.273s] -- Install configuration: ""
+[5.275s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/ament_index/resource_index/rosidl_interfaces/motor_comm_interfaces
+[5.275s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces
+[5.275s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg
+[5.276s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/motor_array.h
+[5.276s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.276s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail
+[5.276s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__struct.h
+[5.276s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__functions.h
+[5.277s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__functions.c
+[5.277s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__type_support.h
+[5.278s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/library_path.sh
+[5.278s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/library_path.dsv
+[5.278s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_generator_c.so
+[5.278s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_generator_c.so" to ""
+[5.279s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces
+[5.279s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg
+[5.279s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.279s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail
+[5.279s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__rosidl_typesupport_fastrtps_c.h
+[5.279s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.279s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.279s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces
+[5.280s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg
+[5.280s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/motor_array.hpp
+[5.280s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail
+[5.281s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__builder.hpp
+[5.281s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__struct.hpp
+[5.281s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__traits.hpp
+[5.281s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces
+[5.281s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg
+[5.281s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.281s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail
+[5.282s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/dds_fastrtps
+[5.282s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.282s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.282s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.282s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces
+[5.283s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg
+[5.283s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.283s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail
+[5.283s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__rosidl_typesupport_introspection_c.h
+[5.283s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__type_support.c
+[5.283s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_introspection_c.so
+[5.283s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.284s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_c.so
+[5.284s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_c.so" to ""
+[5.284s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces
+[5.284s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg
+[5.284s] -- Up-to-date: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail
+[5.284s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__rosidl_typesupport_introspection_cpp.hpp
+[5.284s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/include/motor_comm_interfaces/motor_comm_interfaces/msg/detail/motor_array__type_support.cpp
+[5.284s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.284s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.284s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_cpp.so
+[5.285s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.285s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/pythonpath.sh
+[5.285s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/pythonpath.dsv
+[5.285s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces-0.0.0-py3.10.egg-info
+[5.285s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.286s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.286s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.286s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.286s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces
+[5.286s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.286s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.287s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/_motor_comm_interfaces_s.ep.rosidl_typesupport_c.c
+[5.287s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/_motor_comm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.287s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/msg
+[5.287s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/msg/_motor_array_s.c
+[5.288s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/msg/__init__.py
+[5.288s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/msg/_motor_array.py
+[5.288s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/_motor_comm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.288s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.288s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/libmotor_comm_interfaces__rosidl_generator_py.so
+[5.289s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/__init__.py
+[5.319s] Listing '/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces'...
+[5.319s] Compiling '/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/__init__.py'...
+[5.319s] Listing '/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/msg'...
+[5.319s] Compiling '/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/msg/__init__.py'...
+[5.319s] Compiling '/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/msg/_motor_array.py'...
+[5.325s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.325s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.325s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.326s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.326s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.326s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages/motor_comm_interfaces/motor_comm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.326s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_generator_py.so
+[5.326s] -- Set runtime path of "/home/dmantri/ardu3/install/motor_comm_interfaces/lib/libmotor_comm_interfaces__rosidl_generator_py.so" to ""
+[5.327s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/msg/MotorArray.idl
+[5.327s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/msg/MotorArray.msg
+[5.327s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/ament_index/resource_index/package_run_dependencies/motor_comm_interfaces
+[5.327s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/ament_index/resource_index/parent_prefix_path/motor_comm_interfaces
+[5.328s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/ament_prefix_path.sh
+[5.328s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/ament_prefix_path.dsv
+[5.328s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/path.sh
+[5.328s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/environment/path.dsv
+[5.329s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/local_setup.bash
+[5.329s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/local_setup.sh
+[5.329s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/local_setup.zsh
+[5.330s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/local_setup.dsv
+[5.330s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.dsv
+[5.330s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/ament_index/resource_index/packages/motor_comm_interfaces
+[5.331s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_generator_cExport.cmake
+[5.331s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.331s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.332s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.332s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_generator_cppExport.cmake
+[5.332s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.332s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.333s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.333s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.333s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_cExport.cmake
+[5.334s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.334s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.335s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.335s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_cppExport.cmake
+[5.335s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.335s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_generator_pyExport.cmake
+[5.335s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/export_motor_comm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.335s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfacesConfig.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/cmake/motor_comm_interfacesConfig-version.cmake
+[5.336s] -- Installing: /home/dmantri/ardu3/install/motor_comm_interfaces/share/motor_comm_interfaces/package.xml
+[5.338s] Invoked command in '/home/dmantri/ardu3/build/motor_comm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake --install /home/dmantri/ardu3/build/motor_comm_interfaces
