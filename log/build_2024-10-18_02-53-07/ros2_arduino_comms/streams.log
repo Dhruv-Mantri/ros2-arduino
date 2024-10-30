@@ -1,0 +1,24 @@
+[0.670s] Invoking command in '/home/dmantri/ardu3/src/ros2_arduino_comms': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data
+[0.896s] running egg_info
+[0.896s] writing ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/dependency_links.txt
+[0.897s] writing entry points to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/entry_points.txt
+[0.898s] writing requirements to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/requires.txt
+[0.898s] writing top-level names to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/top_level.txt
+[0.900s] reading manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.901s] running build_py
+[0.901s] copying ros2_arduino_comms/serial_node.py -> /home/dmantri/ardu3/build/ros2_arduino_comms/build/lib/ros2_arduino_comms
+[0.902s] running install
+[0.902s] running install_lib
+[0.903s] copying /home/dmantri/ardu3/build/ros2_arduino_comms/build/lib/ros2_arduino_comms/serial_node.py -> /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms
+[0.904s] byte-compiling /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/serial_node.py to serial_node.cpython-310.pyc
+[0.905s] running install_data
+[0.905s] running install_egg_info
+[0.907s] removing '/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[0.908s] Copying ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info
+[0.909s] running install_scripts
+[0.931s] Installing light script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[0.932s] writing list of installed files to '/home/dmantri/ardu3/build/ros2_arduino_comms/install.log'
+[0.970s] Invoked command in '/home/dmantri/ardu3/src/ros2_arduino_comms' returned '0': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data

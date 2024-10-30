@@ -1,0 +1,21 @@
+[0.708s] Invoking command in '/home/dmantri/ardu3/build/ros2_arduino_comms': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dmantri/ardu3/build/ros2_arduino_comms/build --no-deps symlink_data --force
+[1.013s] running develop
+[1.015s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.015s]   warnings.warn(
+[1.179s] running egg_info
+[1.179s] writing ros2_arduino_comms.egg-info/PKG-INFO
+[1.180s] writing dependency_links to ros2_arduino_comms.egg-info/dependency_links.txt
+[1.180s] writing entry points to ros2_arduino_comms.egg-info/entry_points.txt
+[1.180s] writing requirements to ros2_arduino_comms.egg-info/requires.txt
+[1.180s] writing top-level names to ros2_arduino_comms.egg-info/top_level.txt
+[1.183s] reading manifest file 'ros2_arduino_comms.egg-info/SOURCES.txt'
+[1.184s] writing manifest file 'ros2_arduino_comms.egg-info/SOURCES.txt'
+[1.186s] running build_ext
+[1.186s] Creating /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2-arduino-comms.egg-link (link to .)
+[1.186s] Installing light script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.187s] 
+[1.187s] Installed /home/dmantri/ardu3/build/ros2_arduino_comms
+[1.187s] running symlink_data
+[1.187s] symbolically linking /home/dmantri/ardu3/build/ros2_arduino_comms/resource/ros2_arduino_comms -> /home/dmantri/ardu3/install/ros2_arduino_comms/share/ament_index/resource_index/packages
+[1.187s] symbolically linking /home/dmantri/ardu3/build/ros2_arduino_comms/package.xml -> /home/dmantri/ardu3/install/ros2_arduino_comms/share/ros2_arduino_comms
+[1.232s] Invoked command in '/home/dmantri/ardu3/build/ros2_arduino_comms' returned '0': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dmantri/ardu3/build/ros2_arduino_comms/build --no-deps symlink_data --force

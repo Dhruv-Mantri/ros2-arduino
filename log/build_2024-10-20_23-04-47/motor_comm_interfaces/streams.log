@@ -1,0 +1,64 @@
+[0.025s] Invoking command in '/home/dmantri/ardu3/build/motor_comm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake /home/dmantri/ardu3/src/motor_comm_interfaces -DCMAKE_INSTALL_PREFIX=/home/dmantri/ardu3/install/motor_comm_interfaces
+[0.385s] -- The C compiler identification is GNU 11.4.0
+[1.329s] -- The CXX compiler identification is GNU 11.4.0
+[2.036s] -- Detecting C compiler ABI info
+[2.272s] -- Detecting C compiler ABI info - done
+[2.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.280s] -- Detecting C compile features
+[2.282s] -- Detecting C compile features - done
+[2.288s] -- Detecting CXX compiler ABI info
+[2.531s] -- Detecting CXX compiler ABI info - done
+[2.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.539s] -- Detecting CXX compile features
+[2.539s] -- Detecting CXX compile features - done
+[2.565s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.869s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.204s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.217s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.242s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.281s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.403s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.610s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[3.610s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.611s]   motor_comm_interfaces --arguments-file
+[3.611s]   /home/dmantri/ardu3/build/motor_comm_interfaces/rosidl_adapter__arguments__motor_comm_interfaces.json
+[3.611s]   --output-dir
+[3.611s]   /home/dmantri/ardu3/build/motor_comm_interfaces/rosidl_adapter/motor_comm_interfaces
+[3.611s]   --output-file
+[3.611s]   /home/dmantri/ardu3/build/motor_comm_interfaces/rosidl_adapter/motor_comm_interfaces.idls)
+[3.611s]   returned error code 1:
+[3.612s] 
+[3.612s]   Traceback (most recent call last):
+[3.612s] 
+[3.612s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[3.612s]       return _run_code(code, main_globals, None,
+[3.612s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[3.612s]       exec(code, run_globals)
+[3.612s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.612s]       sys.exit(main())
+[3.612s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[3.612s]       abs_idl_file = convert_to_idl(
+[3.612s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[3.612s]       return convert_msg_to_idl(
+[3.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[3.613s]       msg = parse_message_string(package_name, input_file.stem, content)
+[3.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[3.613s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[3.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[3.613s]       self.base_type = BaseType(
+[3.613s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[3.613s]       raise InvalidResourceName(
+[3.613s] 
+[3.613s]   rosidl_adapter.parser.InvalidResourceName: 'motorArray' is an invalid
+[3.613s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[3.613s] 
+[3.613s] Call Stack (most recent call first):
+[3.613s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.613s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[3.613s] 
+[3.613s] [0m
+[3.614s] -- Configuring incomplete, errors occurred!
+[3.614s] See also "/home/dmantri/ardu3/build/motor_comm_interfaces/CMakeFiles/CMakeOutput.log".
+[3.621s] Invoked command in '/home/dmantri/ardu3/build/motor_comm_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dmantri/ardu3/install/ros2_arduino_comms:/home/dmantri/simulation_docker/ros2ws/install/gzsim:/opt/ros/humble /usr/bin/cmake /home/dmantri/ardu3/src/motor_comm_interfaces -DCMAKE_INSTALL_PREFIX=/home/dmantri/ardu3/install/motor_comm_interfaces

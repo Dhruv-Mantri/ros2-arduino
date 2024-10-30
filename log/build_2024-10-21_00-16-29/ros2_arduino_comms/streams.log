@@ -1,0 +1,25 @@
+[0.932s] Invoking command in '/home/dmantri/ardu3/src/ros2_arduino_comms': AMENT_PREFIX_PATH=/home/dmantri/ardu3/install/motor_comm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dmantri/ardu3/install/motor_comm_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/dmantri/ardu3/install/motor_comm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data
+[1.151s] running egg_info
+[1.152s] writing ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/PKG-INFO
+[1.152s] writing dependency_links to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/dependency_links.txt
+[1.152s] writing entry points to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/entry_points.txt
+[1.152s] writing requirements to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/requires.txt
+[1.153s] writing top-level names to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/top_level.txt
+[1.155s] reading manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+[1.156s] writing manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+[1.156s] running build
+[1.156s] running build_py
+[1.156s] running install
+[1.157s] running install_lib
+[1.160s] running install_data
+[1.160s] running install_egg_info
+[1.162s] removing '/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[1.162s] Copying ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info
+[1.164s] running install_scripts
+[1.183s] Installing light script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.184s] Installing motor_pub script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.184s] Installing motor_sub script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.184s] Installing pub_node script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.185s] Installing sub_node script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.185s] writing list of installed files to '/home/dmantri/ardu3/build/ros2_arduino_comms/install.log'
+[1.220s] Invoked command in '/home/dmantri/ardu3/src/ros2_arduino_comms' returned '0': AMENT_PREFIX_PATH=/home/dmantri/ardu3/install/motor_comm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dmantri/ardu3/install/motor_comm_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/dmantri/ardu3/install/motor_comm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:/home/dmantri/ardu3/install/motor_comm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data

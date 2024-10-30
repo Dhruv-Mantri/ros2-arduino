@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dmantri/arduino_c/install/arducontrol/local/lib/python3.10/dist-packages",
+        "/home/dmantri/simulation_docker/ros2ws/install/gzsim/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dmantri/arduino_c/install/arducontrol/local/lib/python3.10/dist-packages",
+        "/home/dmantri/simulation_docker/ros2ws/install/gzsim/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

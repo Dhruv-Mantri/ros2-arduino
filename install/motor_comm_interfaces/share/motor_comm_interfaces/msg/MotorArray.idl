@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from motor_comm_interfaces/msg/MotorArray.msg
+// generated code does not contain a copyright notice
+
+
+module motor_comm_interfaces {
+  module msg {
+    struct MotorArray {
+      @verbatim (language="comment", text=
+        "A 1D array of integers")
+      sequence<int32> data;
+
+      @verbatim (language="comment", text=
+        "Number of rows in the array")
+      int32 num_rows;
+
+      @verbatim (language="comment", text=
+        "Number of columns in the array")
+      int32 num_cols;
+    };
+  };
+};

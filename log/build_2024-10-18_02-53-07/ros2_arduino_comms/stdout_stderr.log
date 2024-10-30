@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/requires.txt
+writing top-level names to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/top_level.txt
+reading manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_arduino_comms/serial_node.py -> /home/dmantri/ardu3/build/ros2_arduino_comms/build/lib/ros2_arduino_comms
+running install
+running install_lib
+copying /home/dmantri/ardu3/build/ros2_arduino_comms/build/lib/ros2_arduino_comms/serial_node.py -> /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms
+byte-compiling /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/serial_node.py to serial_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info
+running install_scripts
+Installing light script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+writing list of installed files to '/home/dmantri/ardu3/build/ros2_arduino_comms/install.log'

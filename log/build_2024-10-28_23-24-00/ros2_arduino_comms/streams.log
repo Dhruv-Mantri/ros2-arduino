@@ -1,0 +1,31 @@
+[1.020s] Invoking command in '/home/dmantri/ardu3/src/ros2_arduino_comms': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data
+[1.251s] running egg_info
+[1.251s] writing ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/PKG-INFO
+[1.252s] writing dependency_links to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/dependency_links.txt
+[1.252s] writing entry points to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/entry_points.txt
+[1.253s] writing requirements to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/requires.txt
+[1.253s] writing top-level names to ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/top_level.txt
+[1.254s] reading manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+[1.255s] writing manifest file '../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info/SOURCES.txt'
+[1.256s] running build
+[1.256s] running build_py
+[1.257s] copying ros2_arduino_comms/controller_input.py -> /home/dmantri/ardu3/build/ros2_arduino_comms/build/lib/ros2_arduino_comms
+[1.257s] running install
+[1.257s] running install_lib
+[1.258s] copying /home/dmantri/ardu3/build/ros2_arduino_comms/build/lib/ros2_arduino_comms/controller_input.py -> /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms
+[1.259s] byte-compiling /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/controller_input.py to controller_input.cpython-310.pyc
+[1.260s] running install_data
+[1.260s] running install_egg_info
+[1.263s] removing '/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[1.263s] Copying ../../build/ros2_arduino_comms/ros2_arduino_comms.egg-info to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms-0.0.0-py3.10.egg-info
+[1.264s] running install_scripts
+[1.282s] Installing can_pub script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.282s] Installing can_sub script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.283s] Installing controller_read script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.283s] Installing light script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.284s] Installing motor_pub script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.284s] Installing motor_sub script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.284s] Installing pub_node script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.284s] Installing sub_node script to /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms
+[1.284s] writing list of installed files to '/home/dmantri/ardu3/build/ros2_arduino_comms/install.log'
+[1.319s] Invoked command in '/home/dmantri/ardu3/src/ros2_arduino_comms' returned '0': PYTHONPATH=/home/dmantri/ardu3/build/ros2_arduino_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_comms build --build-base /home/dmantri/ardu3/build/ros2_arduino_comms/build install --record /home/dmantri/ardu3/build/ros2_arduino_comms/install.log --single-version-externally-managed install_data
