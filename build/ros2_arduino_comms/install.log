@@ -1,3 +1,4 @@
+/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/joystick_to_arduino.py
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/can_comm_sub.py
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/motor_pub.py
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/ardu_publisher.py
@@ -8,6 +9,7 @@
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/ardu_subscriber.py
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/__init__.py
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/can_comm_pub.py
+/home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/__pycache__/joystick_to_arduino.cpython-310.pyc
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/__pycache__/can_comm_sub.cpython-310.pyc
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/__pycache__/motor_pub.cpython-310.pyc
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/python3.10/site-packages/ros2_arduino_comms/__pycache__/ardu_publisher.cpython-310.pyc
@@ -30,6 +32,7 @@
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms/can_pub
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms/can_sub
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms/controller_read
+/home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms/joystick_arduino
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms/joystick_pub
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms/light
 /home/dmantri/ardu3/install/ros2_arduino_comms/lib/ros2_arduino_comms/motor_pub

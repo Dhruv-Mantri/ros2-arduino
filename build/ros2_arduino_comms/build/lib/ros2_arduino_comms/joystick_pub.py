@@ -4,7 +4,10 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 import numpy as np
+
+import serial
 import socket
+import time
 
 class JoystickPublisher(Node):
     def __init__(self):
@@ -20,7 +23,7 @@ class JoystickPublisher(Node):
 
         print("Server Started")
 
-        self.publisher_ = self.create_publisher(String, 'array_topic', 10)
+        self.publisher_ = self.create_publisher(String, '/joystick_val', 10)
         self.timer = self.create_timer(0.1, self.publish_array)
 
 

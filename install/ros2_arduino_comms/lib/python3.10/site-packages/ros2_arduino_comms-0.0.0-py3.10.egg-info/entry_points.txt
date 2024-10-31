@@ -2,6 +2,7 @@
 can_pub = ros2_arduino_comms.can_comm_pub:main
 can_sub = ros2_arduino_comms.can_comm_sub:main
 controller_read = ros2_arduino_comms.controller_input:main
+joystick_arduino = ros2_arduino_comms.joystick_to_arduino:main
 joystick_pub = ros2_arduino_comms.joystick_pub:main
 light = ros2_arduino_comms.serial_node:main
 motor_pub = ros2_arduino_comms.motor_pub:main

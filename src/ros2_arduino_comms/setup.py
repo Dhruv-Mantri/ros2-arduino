@@ -31,6 +31,7 @@ setup(
             'can_pub = ros2_arduino_comms.can_comm_pub:main',
             'controller_read = ros2_arduino_comms.controller_input:main',
             'joystick_pub = ros2_arduino_comms.joystick_pub:main',
+            'joystick_arduino = ros2_arduino_comms.joystick_to_arduino:main',
         ],
     },
 )

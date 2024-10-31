@@ -16,6 +16,7 @@ ros2_arduino_comms/can_comm_pub.py
 ros2_arduino_comms/can_comm_sub.py
 ros2_arduino_comms/controller_input.py
 ros2_arduino_comms/joystick_pub.py
+ros2_arduino_comms/joystick_to_arduino.py
 ros2_arduino_comms/motor_pub.py
 ros2_arduino_comms/motor_sub.py
 ros2_arduino_comms/serial_node.py
